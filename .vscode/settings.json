@@ -1,0 +1,15 @@
+{
+	"files.associations": {
+		"cdefs.h": "c",
+		"_types.h": "c",
+		"signal.h": "c",
+		"unistd.h": "c",
+		"_pthread_types.h": "c",
+		"libft.h": "c",
+		"ft_printf.h": "c",
+		"stdio.h": "c",
+		"stdarg.h": "c",
+		"stdlib.h": "c",
+		"ft_color.h": "c"
+	}
+}
