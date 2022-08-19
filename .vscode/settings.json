@@ -10,6 +10,11 @@
 		"stdio.h": "c",
 		"stdarg.h": "c",
 		"stdlib.h": "c",
-		"ft_color.h": "c"
+		"ft_color.h": "c",
+		"stdbool.h": "c",
+		"ft_pid.h": "c",
+		"ft_kill.h": "c",
+		"ft_bit.h": "c",
+		"ft_kills.h": "c"
 	}
 }
