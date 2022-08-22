@@ -6,8 +6,8 @@
 /*   By: kyoulee <kyoulee@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/19 08:08:18 by kyoulee           #+#    #+#             */
-/*   Updated: 2022/08/19 15:48:15 by kyoulee          ###   ########.fr       */
+/*   Updated: 2022/08/22 22:50:21 by kyoulee          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../src_kill/ft_kills.h"
+#include "../src_kill/ft_kill.h"

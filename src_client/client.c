@@ -6,7 +6,7 @@
 /*   By: kyoulee <kyoulee@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/19 14:23:04 by kyoulee           #+#    #+#             */
-/*   Updated: 2022/08/19 15:21:17 by kyoulee          ###   ########.fr       */
+/*   Updated: 2022/08/22 22:55:22 by kyoulee          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,6 @@
 #include <signal.h>
 #include <ft_pid.h>
 #include <ft_kill.h>
-
-t_pid_list	*g_pid_list;
 
 void	ft_handle_conn_client(int sig, siginfo_t *siginfo, void *context)
 {

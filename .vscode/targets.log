@@ -1,0 +1,622 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+
+# Make data base, printed on Tue Aug 23 01:03:12 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile (from `Makefile', line 131)
+SRC_CLIENT_C = $(addprefix $(SRC_CLINET_DIR)/, $(SRC_CLIENT_C_SRC))
+# makefile (from `Makefile', line 97)
+FT_PRINTF = $(FT_PRINTF_DIR)/libftprintf.a
+# makefile (from `Makefile', line 19)
+IFLAGS = -I $(INCLUDE_DIR) -I $(INCLUDE_LIBFT_DIR) -I $(INCLUDE_FT_PRINTF_DIR)
+# makefile (from `Makefile', line 123)
+SRC_PID_C = $(addprefix $(SRC_PID_DIR)/, $(SRC_PID_C_SRC))
+# makefile (from `Makefile', line 13)
+TARGET = minitalk
+# makefile (from `Makefile', line 84)
+SRC_PID_DIR = $(ROOTDIR)/src_pid
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+ 
+# makefile (from `Makefile', line 58)
+FG_CYAN = \033[36m
+# makefile (from `Makefile', line 49)
+BG_MAKE2 = \033[48;5;238m
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile (from `Makefile', line 28)
+LDLIBS = -lftprintf -lft 
+# makefile
+CURDIR := /Users/kyoulee/Documents/git/minitalk
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"ko","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 66)
+FG_LCYAN = \033[96m
+# makefile (from `Makefile', line 17)
+CFLAGS = -Wall -Werror -Wextra
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# makefile (from `Makefile', line 64)
+FG_LBLUE = \033[94m
+# makefile (from `Makefile', line 74)
+CL_HIDDEN = \033[8m
+# makefile (from `Makefile', line 88)
+OBJ_DIR = $(ROOTDIR)/obj
+# makefile (from `Makefile', line 16)
+CXXFLAGS = $(NULL)
+# makefile (from `Makefile', line 60)
+FG_DGREY = \033[90m
+# makefile (from `Makefile', line 65)
+FG_LMAGENTA = \033[95m
+# makefile (from `Makefile', line 125)
+SRC_SERVER_C_SRC = server.c
+# makefile (from `Makefile', line 39)
+BG_LGREY = \033[47m
+# makefile (from `Makefile', line 37)
+BG_MAGENTA = \033[45m
+# makefile (from `Makefile', line 99)
+INCLUDE_FT_PRINTF_DIR = $(FT_PRINTF_DIR)/include
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+INFOPATH = /opt/homebrew/share/info:
+# makefile (from `Makefile', line 34)
+BG_GREEN = \033[42m
+# makefile (from `Makefile', line 129)
+SRC_CLIENT_C_SRC = client.c
+# makefile (from `Makefile', line 67)
+FG_WHITE = \033[97m
+# makefile (from `Makefile', line 139)
+OBJS_CLIENT = $(SRC_CLIENT_C:$(SRC_CLINET_DIR)/%.c=$(OBJ_DIR)/%.o)
+# makefile (from `Makefile', line 141)
+OBJS_CLEAN = $(OBJS)
+# makefile (from `Makefile', line 56)
+FG_BLUE = \033[34m
+# environment
+VSCODE_CWD = /
+# environment
+PATH = /opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
+# makefile (from `Makefile', line 41)
+BG_LRED = \033[101m
+# makefile (from `Makefile', line 63)
+FG_LYELLOW = \033[93m
+# makefile (from `Makefile', line 114)
+SRC_KILL_C = $(addprefix $(SRC_KILL_DIR)/, $(SRC_KILL_C_SRC))
+# makefile (from `Makefile', line 110)
+SRC_BIT_C = $(addprefix $(SRC_BIT_DIR)/, $(SRC_BIT_C_SRC))
+# makefile (from `Makefile', line 89)
+INCLUDE_DIR = $(ROOTDIR)/include
+# makefile (from `Makefile', line 35)
+BG_YELLOW = \033[43m
+# makefile (from `Makefile', line 83)
+SRC_KILL_DIR = $(ROOTDIR)/src_kill
+# makefile (from `Makefile', line 62)
+FG_LGREEN = \033[92m
+# makefile (from `Makefile', line 82)
+SRC_BIT_DIR = $(ROOTDIR)/src_bit
+# makefile (from `Makefile', line 33)
+BG_RED = \033[41m
+# makefile (from `Makefile', line 50)
+BG_MAKE3 = \033[48;5;240m
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from `Makefile', line 24)
+LDFLAGS = -L $(LIBFT_DIR) -L $(FT_PRINTF_DIR)
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# makefile (from `Makefile', line 94)
+LIBFT_DIR = $(ROOTDIR)/modules/Libft
+# makefile (from `Makefile', line 106)
+SRC_BIT_C_SRC = ft_byte_bit.c ft_index_bit.c
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.Xd69dUNgeM/Listeners
+# automatic
+%F = $(notdir $%)
+# makefile (from `Makefile', line 18)
+DFLAGS = $(NULL)
+# makefile (from `Makefile', line 133)
+OBJS = $(SRC_C:$(SRC_DIR)/%.c=$(OBJ_DIR)/%.o) $(SRC_BIT_C:$(SRC_BIT_DIR)/%.c=$(OBJ_DIR)/%.o) $(SRC_KILL_C:$(SRC_KILL_DIR)/%.c=$(OBJ_DIR)/%.o) $(SRC_PID_C:$(SRC_PID_DIR)/%.c=$(OBJ_DIR)/%.o)
+# environment
+PWD = /Users/kyoulee/Documents/git/minitalk
+# makefile (from `Makefile', line 45)
+BG_LMAGENTA = \033[105m
+ 
+# environment
+HOMEBREW_CELLAR = /opt/homebrew/Cellar
+# makefile (from `Makefile', line 72)
+CL_BLINK = \033[5m
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# makefile (from `Makefile', line 127)
+SRC_SERVER_C = $(addprefix $(SRC_SERVER_DIR)/, $(SRC_SERVER_C_SRC))
+# environment
+MANPATH = /opt/homebrew/share/man::
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/kyoulee
+# makefile (from `Makefile', line 102)
+SRC_C_SRC = $(NULL)
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/kyoulee/Library/Application Support/Code/CachedData/e4503b30fc78200f846c62cf8091b76ff5547662
+# environment
+LOGNAME = kyoulee
+# makefile (from `Makefile', line 85)
+SRC_SERVER_DIR = $(ROOTDIR)/src_server
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (from `Makefile', line 57)
+FG_MAGENTA = \033[35m
+# environment
+XPC_FLAGS = 0x0
+# makefile (from `Makefile', line 70)
+CL_DIM = \033[2m
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# makefile (from `Makefile', line 93)
+LIBFT = $(LIBFT_DIR)/libft.a
+# makefile (from `Makefile', line 15)
+CC = cc
+# makefile (from `Makefile', line 46)
+BG_LCYAN = \033[106m
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = kyoulee
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from `Makefile', line 69)
+CL_BOLD = \033[1m
+# makefile (from `Makefile', line 55)
+FG_YELLOW = \033[33m
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from `Makefile', line 44)
+BG_LBLUE = \033[104m
+# makefile (from `Makefile', line 91)
+MINITALK_DIR = $(ROOTDIR)/minitalk
+# makefile (from `Makefile', line 40)
+BG_DGREY = \033[100m
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# makefile (from `Makefile', line 59)
+FG_LGREY = \033[37m
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/3l/_b_4697s3xj0ly4vm2tfkzk80000gn/T/
+# automatic
+*F = $(notdir $*)
+# makefile (from `Makefile', line 73)
+CL_INVERT = \033[7m
+# makefile (from `Makefile', line 54)
+FG_GREEN = \033[32m
+# environment
+VSCODE_IPC_HOOK = /Users/kyoulee/Library/Application Support/Code/1.70.2-main.sock
+# environment
+MallocNanoZone = 0
+# makefile (from `Makefile', line 47)
+BG_WHITE = \033[107m
+# makefile (from `Makefile', line 116)
+SRC_PID_C_SRC = ft_pid_data.c ft_pid_free.c ft_pid_printf_client.c ft_pid_printf_server.c ft_pid.c
+# makefile
+MAKEFLAGS = Rrqp
+# makefile (from `Makefile', line 36)
+BG_BLUE = \033[44m
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MAIL = kyoulee@student.42seoul.kr
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.4593531.4593537
+# environment
+HOMEBREW_PREFIX = /opt/homebrew
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from `Makefile', line 38)
+BG_CYAN = \033[46m
+# makefile (from `Makefile', line 61)
+FG_LRED = \033[91m
+# automatic
++F = $(notdir $+)
+# makefile (from `Makefile', line 104)
+SRC_C = $(addprefix $(SRC_DIR)/, $(SRC_C_SRC))
+# environment
+HOMEBREW_REPOSITORY = /opt/homebrew
+# makefile (from `Makefile', line 95)
+INCLUDE_LIBFT_DIR = $(LIBFT_DIR)/include
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x3:0x33
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# makefile (from `Makefile', line 81)
+SRC_DIR = $(ROOTDIR)/src
+# makefile (from `Makefile', line 98)
+FT_PRINTF_DIR = $(ROOTDIR)/modules/ft_printf
+# automatic
+<F = $(notdir $<)
+# makefile (from `Makefile', line 42)
+BG_LGREEN = \033[102m
+# makefile (from `Makefile', line 53)
+FG_RED = \033[31m
+# makefile (from `Makefile', line 52)
+FG_BLACK = \033[30m
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# makefile (from `Makefile', line 86)
+SRC_CLINET_DIR = $(ROOTDIR)/src_client
+# makefile (from `Makefile', line 80)
+ROOTDIR = $(abspath $(dir $(word $(words $(MAKEFILE_LIST)),$(MAKEFILE_LIST))))
+# makefile (from `Makefile', line 71)
+CL_UDLINE = \033[4m
+# makefile (from `Makefile', line 112)
+SRC_KILL_C_SRC = ft_kill.c
+# makefile (from `Makefile', line 48)
+BG_MAKE1 = \033[48;5;236m
+# makefile (from `Makefile', line 138)
+OBJS_SERVER = $(SRC_SERVER_C:$(SRC_SERVER_DIR)/%.c=$(OBJ_DIR)/%.o)
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+VSCODE_PID = 602
+# makefile (from `Makefile', line 43)
+BG_LYELLOW = \033[103m
+ 
+# makefile (from `Makefile', line 76)
+NO_COLOR = \033[0m
+# variable set hash-table stats:
+# Load=144/1024=14%, Rehash=0, Collisions=36/366=10%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777229, inode 4363502): 16 files, no impossibilities.
+# /Users/kyoulee/Documents/git/minitalk/src_client (device 16777229, inode 4377890): No files, no impossibilities so far.
+# /Users/kyoulee/Documents/git/minitalk/src_server (device 16777229, inode 4479744): No files, no impossibilities so far.
+# /Users/kyoulee/Documents/git/minitalk/src_pid (device 16777229, inode 4524825): No files, no impossibilities so far.
+# /Users/kyoulee/Documents/git/minitalk/src: could not be stat'd.
+# /Users/kyoulee/Documents/git/minitalk/src_kill (device 16777229, inode 4566024): No files, no impossibilities so far.
+# /Users/kyoulee/Documents/git/minitalk/src_bit (device 16777229, inode 4566995): 5 files, no impossibilities so far.
+
+# 21 files, no impossibilities in 7 directories.
+
+# Implicit Rules
+
+/Users/kyoulee/Documents/git/minitalk/obj/%.o: /Users/kyoulee/Documents/git/minitalk/src/%.c
+#  commands to execute (from `Makefile', line 168):
+	$(CC) $(CPPFLAGS) $(IFLAGS) -c $< -o $@
+	
+
+/Users/kyoulee/Documents/git/minitalk/obj/%.o: /Users/kyoulee/Documents/git/minitalk/src_bit/%.c
+#  commands to execute (from `Makefile', line 171):
+	$(CC) $(CPPFLAGS) $(IFLAGS) -c $< -o $@
+	
+
+/Users/kyoulee/Documents/git/minitalk/obj/%.o: /Users/kyoulee/Documents/git/minitalk/src_kill/%.c
+#  commands to execute (from `Makefile', line 174):
+	$(CC) $(CPPFLAGS) $(IFLAGS) -c $< -o $@
+	
+
+/Users/kyoulee/Documents/git/minitalk/obj/%.o: /Users/kyoulee/Documents/git/minitalk/src_pid/%.c
+#  commands to execute (from `Makefile', line 177):
+	$(CC) $(CPPFLAGS) $(IFLAGS) -c $< -o $@
+	
+
+/Users/kyoulee/Documents/git/minitalk/obj/%.o: /Users/kyoulee/Documents/git/minitalk/src_server/%.c
+#  commands to execute (from `Makefile', line 180):
+	$(CC) $(CPPFLAGS) $(IFLAGS) -c $< -o $@
+	
+
+/Users/kyoulee/Documents/git/minitalk/obj/%.o: /Users/kyoulee/Documents/git/minitalk/src_client/%.c
+#  commands to execute (from `Makefile', line 183):
+	$(CC) $(CPPFLAGS) $(IFLAGS) -c $< -o $@
+	
+
+# 6 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+/Users/kyoulee/Documents/git/minitalk/modules/Libft/libft.a:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 187):
+	echo "$(FG_MAGENTA)module $(FG_LYELLOW)Libft$(NO_COLOR) -> $(FG_LCYAN)$(LIBFT)$(NO_COLOR)$(BG_MAKE1)"
+	$(MAKE) -C $(LIBFT_DIR) bonus
+	@echo "$(NO_COLOR)"
+	
+
+/Users/kyoulee/Documents/git/minitalk/minitalk:
+#  Implicit rule search has not been done.
+#  Last modified 2022-08-23 01:02:29
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 165):
+	mkdir $@
+	
+
+all: /Users/kyoulee/Documents/git/minitalk/obj minitalk
+#  Phony target (prerequisite of .PHONY).
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/19=0%
+
+.PHONY: all re clean fclean clean_libft clean_ft_printf
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/Users/kyoulee/Documents/git/minitalk/obj:
+#  Implicit rule search has not been done.
+#  Last modified 2022-08-23 01:02:32
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 162):
+	mkdir $@
+	
+
+# Not a target:
+/Users/kyoulee/Documents/git/minitalk/obj/ft_kill.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/Users/kyoulee/Documents/git/minitalk/src_bit/ft_byte_bit.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-19 15:43:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-23 01:02:10
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+/Users/kyoulee/Documents/git/minitalk/obj/ft_index_bit.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 150):
+	@echo "$(OBJS) -o $(TARGET)"
+	
+
+# Not a target:
+/Users/kyoulee/Documents/git/minitalk/obj/ft_pid.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bonus: /Users/kyoulee/Documents/git/minitalk/obj minitalk
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+minitalk: /Users/kyoulee/Documents/git/minitalk/minitalk /Users/kyoulee/Documents/git/minitalk/obj/ft_byte_bit.o /Users/kyoulee/Documents/git/minitalk/obj/ft_index_bit.o /Users/kyoulee/Documents/git/minitalk/obj/ft_kill.o /Users/kyoulee/Documents/git/minitalk/obj/ft_pid_data.o /Users/kyoulee/Documents/git/minitalk/obj/ft_pid_free.o /Users/kyoulee/Documents/git/minitalk/obj/ft_pid_printf_client.o /Users/kyoulee/Documents/git/minitalk/obj/ft_pid_printf_server.o /Users/kyoulee/Documents/git/minitalk/obj/ft_pid.o /Users/kyoulee/Documents/git/minitalk/obj/server.o /Users/kyoulee/Documents/git/minitalk/obj/client.o /Users/kyoulee/Documents/git/minitalk/modules/Libft/libft.a /Users/kyoulee/Documents/git/minitalk/modules/ft_printf/libftprintf.a
+#  Implicit rule search has not been done.
+#  Last modified 2022-08-23 01:02:29
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/19=0%
+#  commands to execute (from `Makefile', line 153):
+	$(CC) $(CFLAGS) $(IFLAGS) $(LDFLAGS) $(LDLIBS) $(OBJS) $(OBJS_SERVER) -o $(TARGET)/server
+	$(CC) $(CFLAGS) $(IFLAGS) $(LDFLAGS) $(LDLIBS) $(OBJS) $(OBJS_CLIENT) -o $(TARGET)/client
+	@echo "$(FG_LMAGENTA)$(CC) $(FG_BLUE) $(CFLAGS)"
+	@(for i in $(IFLAGS) $(LDFLAGS); do echo $$i; done)
+	@echo "$(LDLIBS) $(FG_LCYAN)"
+	@(for i in $(OBJS); do echo $$i; done)
+	@echo "$(FG_BLUE)-o $(FG_LYELLOW)$(TARGET)"
+	
+
+ 
+fclean: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+# makefile (from `Makefile', line 211)
+# OBJS_CLEAN += $(TARGET)/SERVER $(TARGET)/CLIENT
+# variable set hash-table stats:
+# Load=1/32=3%, Rehash=0, Collisions=0/2=0%
+#  commands to execute (from `Makefile', line 213):
+	rm -r $(TARGET)
+	
+
+# Not a target:
+/Users/kyoulee/Documents/git/minitalk/obj/ft_pid_free.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/Users/kyoulee/Documents/git/minitalk/modules/ft_printf/libftprintf.a:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 192):
+	echo "$(FG_MAGENTA)module $(FG_LYELLOW)ft_printf$(NO_COLOR) -> $(FG_LCYAN)$(FT_PRINTF)$(NO_COLOR)$(BG_MAKE1)"
+	$(MAKE) -C $(FT_PRINTF_DIR) bonus
+	@echo "$(NO_COLOR)"
+	
+
+# Not a target:
+/Users/kyoulee/Documents/git/minitalk/obj/client.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/Users/kyoulee/Documents/git/minitalk/obj/ft_byte_bit.o: /Users/kyoulee/Documents/git/minitalk/src_bit/ft_byte_bit.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `ft_byte_bit'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := /Users/kyoulee/Documents/git/minitalk/obj/ft_byte_bit.o
+# automatic
+# % := 
+# automatic
+# * := ft_byte_bit
+# automatic
+# + := /Users/kyoulee/Documents/git/minitalk/src_bit/ft_byte_bit.c
+# automatic
+# | := 
+# automatic
+# < := /Users/kyoulee/Documents/git/minitalk/src_bit/ft_byte_bit.c
+# automatic
+# ^ := /Users/kyoulee/Documents/git/minitalk/src_bit/ft_byte_bit.c
+# automatic
+# ? := /Users/kyoulee/Documents/git/minitalk/src_bit/ft_byte_bit.c
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=5/29=17%
+#  commands to execute (from `Makefile', line 171):
+	$(CC) $(CPPFLAGS) $(IFLAGS) -c $< -o $@
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+re: fclean all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+/Users/kyoulee/Documents/git/minitalk/obj/ft_pid_printf_client.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean: clean_libft clean_ft_printf
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 209):
+	rm -f $(OBJS_CLEAN) $(OBJS_SERVER) $(OBJS_CLIENT)
+	
+
+clean_ft_printf:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 204):
+	@echo "clean $(FG_MAGENTA)module $(FG_LYELLOW)$(notdir $(FT_PRINTF))$(NO_COLOR)$(BG_MAKE1)"
+	$(MAKE) -C $(FT_PRINTF_DIR) fclean 
+	@echo "$(NO_COLOR)"
+	
+
+# Not a target:
+/Users/kyoulee/Documents/git/minitalk/obj/server.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean_libft:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 199):
+	@echo "clean $(FG_MAGENTA)module $(FG_LYELLOW)$(notdir $(LIBFT))$(NO_COLOR)$(BG_MAKE1)"
+	$(MAKE) -C $(LIBFT_DIR) fclean 
+	@echo "$(NO_COLOR)"
+	
+
+# Not a target:
+/Users/kyoulee/Documents/git/minitalk/obj/ft_pid_data.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/Users/kyoulee/Documents/git/minitalk/obj/ft_pid_printf_server.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=28/1024=3%, Rehash=0, Collisions=1/75=1%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Tue Aug 23 01:03:12 2022
+
+ 

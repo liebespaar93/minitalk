@@ -6,7 +6,7 @@
 /*   By: kyoulee <kyoulee@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/19 09:59:38 by kyoulee           #+#    #+#             */
-/*   Updated: 2022/08/19 15:29:43 by kyoulee          ###   ########.fr       */
+/*   Updated: 2022/08/23 01:08:03 by kyoulee          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,8 +32,8 @@ typedef struct s_pid_list
 	t_pid_list		*next;
 }	t_pid_list;
 
-/* global */
-//t_pid_list	*g_pid_list;
+t_pid_list*g_pid_list;
+
 /** ft_pid.c **/
 
 t_pid_list	*ft_pid_list_new(pid_t	pid);

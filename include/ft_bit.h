@@ -6,8 +6,8 @@
 /*   By: kyoulee <kyoulee@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/19 08:20:22 by kyoulee           #+#    #+#             */
-/*   Updated: 2022/08/19 15:48:06 by kyoulee          ###   ########.fr       */
+/*   Updated: 2022/08/22 22:50:13 by kyoulee          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../src_bit/ft_bits.h"
+#include "../src_bit/ft_bit.h"
