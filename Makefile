@@ -6,7 +6,7 @@
 #    By: kyoulee <kyoulee@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/07/31 10:01:30 by kyoulee           #+#    #+#              #
-#    Updated: 2022/08/23 01:02:10 by kyoulee          ###   ########.fr        #
+#    Updated: 2022/08/23 09:52:41 by kyoulee          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -197,12 +197,12 @@ $(FT_PRINTF):
 ## MODULES ##
 clean_libft :
 	@echo "clean $(FG_MAGENTA)module $(FG_LYELLOW)$(notdir $(LIBFT))$(NO_COLOR)$(BG_MAKE1)"
-	$(MAKE) -C $(LIBFT_DIR) fclean 
+	$(MAKE) -C $(LIBFT_DIR) $(MAKECMDGOALS) 
 	@echo "$(NO_COLOR)"
 
 clean_ft_printf :
 	@echo "clean $(FG_MAGENTA)module $(FG_LYELLOW)$(notdir $(FT_PRINTF))$(NO_COLOR)$(BG_MAKE1)"
-	$(MAKE) -C $(FT_PRINTF_DIR) fclean 
+	$(MAKE) -C $(FT_PRINTF_DIR) $(MAKECMDGOALS)
 	@echo "$(NO_COLOR)"
 
 clean : clean_libft clean_ft_printf
